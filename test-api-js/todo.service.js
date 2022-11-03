@@ -32,7 +32,7 @@ class todoservice{
     }
 
     update_todo(id, todo){
-        // update a todo
+        this.todos.todo[id]= todo; 
     }
 }
 
