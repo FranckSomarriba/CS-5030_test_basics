@@ -28,7 +28,7 @@ class todoservice{
     }
 
     delete_todo(id){
-        // delete a todo
+        this.todos.todo.delete(id);
     }
 
     update_todo(id, todo){
