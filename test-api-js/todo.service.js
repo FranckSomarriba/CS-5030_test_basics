@@ -5,12 +5,12 @@ class todoservice{
             "description": "D1",
             "done": false
         },{
-            "title": "T1",
-            "description": "D1",
+            "title": "T2",
+            "description": "D2",
             "done": false
         },{
-            "title": "T1",
-            "description": "D1",
+            "title": "T3",
+            "description": "D3",
             "done": false
         }]
     }
@@ -23,15 +23,16 @@ class todoservice{
     }
 
     add_todo(todo){
-        // Your code here
+        this.todos.todo.push(todo);
+             
     }
 
     delete_todo(id){
-        // Your code here
+        // delete a todo
     }
 
     update_todo(id, todo){
-        // Your code here
+        // update a todo
     }
 }
 
