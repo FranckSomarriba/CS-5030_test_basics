@@ -35,7 +35,7 @@ jobs:
 
        - run:
            name: run tests
-           command: cd test-api-js && npm run test
+           command: bash ./test-api-js && npm run test
 
         
 workflows:
