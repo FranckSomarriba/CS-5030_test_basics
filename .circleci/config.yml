@@ -18,20 +18,20 @@ jobs:
   build-and-test-javascript:
      
      docker:
-       - image: cimg/node:14.20.0
+       - image: cimg/node:8.19.2
      steps:
        - checkout
        - run:
            name: install dependencies
-           command: cd.. && cd test_javascript && npm install
+           command: cd test_javascript && npm install
       
        - run:
            name: run tests
-           command: cd.. && cd test_javascript && npm run test
+           command: cd test_javascript && npm run test
 
        - run:
            name: run tests
-           command: cd.. && cd test-api-js && npm run test
+           command: cd test-api-js && npm run test
 
         
 workflows:
