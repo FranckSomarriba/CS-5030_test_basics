@@ -41,7 +41,7 @@ jobs:
 
        - run:
            name: run tests
-           command: cd test-api-js && npm run test
+           command: cd test-api-js && sudo npm run test
 
         
 workflows:
