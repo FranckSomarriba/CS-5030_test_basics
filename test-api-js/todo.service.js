@@ -28,11 +28,11 @@ class todoservice{
     }
 
     delete_todo(id){
-        this.todos.todo.delete(id);
+        delete this.todos.todo[0]        
     }
 
     update_todo(id, todo){
-        this.todos.todo[id]= todo; 
+        this.todos.todo[id]= todo;        
     }
 }
 
